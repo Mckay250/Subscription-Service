@@ -11,7 +11,7 @@ Steps to follow when running the application
 clone the project or download the zip and extract into a directory on your pc
 
 # Step 2
-## cd into the dirctory and you should find five(5) directories.
+## cd into the dirctory and you should find five(5) sub-directories.
 
 ## cd into kafka-compose and run the command below
   docker-compose up -d
