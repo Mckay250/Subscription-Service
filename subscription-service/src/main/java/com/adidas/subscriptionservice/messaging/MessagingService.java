@@ -15,7 +15,7 @@ public class MessagingService {
     public void sendEmail(String recipient, String subject, String message) {
         EmailMessage messageRequest = new EmailMessage();
         messageRequest.setMessage(message);
-        messageRequest.setRecipient(message);
+        messageRequest.setRecipient(recipient);
         messageRequest.setSubject(subject);
         this.emailMessage.send(MessageBuilder.withPayload(messageRequest).build());
     }
