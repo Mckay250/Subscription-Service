@@ -17,7 +17,7 @@ public class PublicServiceApplication {
 	public RouteLocator gatewayRoutes(RouteLocatorBuilder builder) {
 
 		return builder.routes()
-				.route("subscription-service", r -> r.path("/api/v1/subscriptions/*", "/swagger-ui.html")
+				.route("subscription-service", r -> r.path("/api/v1/subscriptions/*", "**swagger-ui**")
 						.uri("http://subscription-service:8091"))
 				.build();
 	}
