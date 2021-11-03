@@ -7,14 +7,14 @@ Docker is used in containerizing the application so ensure you have docker set u
 
 Steps to follow when running the application
 
-Step 1
+# Step 1
 clone the project or download the zip and extract into a directory on your pc
 
-Step 2
+# Step 2
 cd into the dirctory and you should find three(3) directories for each of the services mentioned above.
 
-step 3
-Run the public service by following the commands below
+# step 3
+## Run the public service by following the commands below
   cd public-service/
   ##build the jar file
   mvn package
@@ -24,8 +24,8 @@ Run the public service by following the commands below
   docker-compose up -d 
   
 
-step 4
-Run the email service by following the commands below
+# step 4
+## Run the email service by following the commands below
   cd email-service/
   ## build the jar file
   mvn package
@@ -35,8 +35,8 @@ Run the email service by following the commands below
   docker-compose up -d 
 
 
-step 5
-Run the subscription service by following the commands below
+# step 5
+## Run the subscription service by following the commands below
   cd subscription-service/
   ##build the jar file
   mvn package   
