@@ -1,7 +1,7 @@
 # Subscription-Service
-A micro-service for subscriptions built with java's spring framework
+An application built on the micro-service architecture for subscriptions using with Java's Spring Framework
 
-This project consists of 3 microservices(Public a.k.a gateway server, Subscription and Email)
+This project consists of 3 microservices(Public service a.k.a gateway server, Subscription service and Email service)
 
 Docker is used in containerizing the application so ensure you have docker set up on your computer before attempting to run the services below
 
