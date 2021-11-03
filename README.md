@@ -24,11 +24,11 @@ Run the public service by following the commands below
 step 4
 Run the email service by following the commands below
   cd email-service/
-  //build the jar file
+  ## build the jar file
   mvn package
-  //build a docker image using the docker file
+  ## build a docker image using the docker file
   docker build -t email-service:latest .
-  //create and run a container from the docker image built above
+  ## create and run a container from the docker image built above
   docker-compose up -d 
 
 
