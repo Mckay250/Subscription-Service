@@ -13,7 +13,7 @@ clone the project or download the zip and extract into a directory on your pc
 # Step 2
 cd into the dirctory and you should find three(3) directories for each of the services mentioned above.
 
-# step 3
+# Step 3
 ## Run the public service by following the commands below
   cd public-service/
   ## build the jar file
@@ -24,7 +24,7 @@ cd into the dirctory and you should find three(3) directories for each of the se
   docker-compose up -d 
   
 
-# step 4
+# Step 4
 ## Run the email service by following the commands below
   cd email-service/
   ## build the jar file
@@ -35,7 +35,7 @@ cd into the dirctory and you should find three(3) directories for each of the se
   docker-compose up -d 
 
 
-# step 5
+# Step 5
 ## Run the subscription service by following the commands below
   cd subscription-service/
   ## build the jar file
