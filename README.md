@@ -11,7 +11,10 @@ Steps to follow when running the application
 clone the project or download the zip and extract into a directory on your pc
 
 # Step 2
-cd into the dirctory and you should find three(3) directories for each of the services mentioned above.
+## cd into the dirctory and you should find five(5) directories.
+
+## cd into kafka-compose and run the command below
+  docker-compose up -d
 
 # Step 3
 ## Run the public service by following the commands below
