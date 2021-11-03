@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  subscription-service:
+    container_name: subscription-service
+    image: subscription-service
+
+
+networks:
+  default:
+    external:
+      name: adidas
