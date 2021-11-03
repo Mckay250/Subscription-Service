@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  public-service:
+    container_name: public-service
+    image: public-service
+    ports:
+      - "8090:8090"
+
+networks:
+  default:
+    external:
+      name: adidas
+
+

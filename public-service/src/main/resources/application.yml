@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: public-service
+
+
+server:
+  port: 8090
+
+
+
