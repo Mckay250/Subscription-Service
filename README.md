@@ -16,9 +16,12 @@ cd into the dirctory and you should find three(3) directories for each of the se
 step 3
 Run the public service by following the commands below
   cd public-service/
-  mvn package   //build the jar file
-  docker build -t public-service:latest . //build a docker image using the docker file
-  docker-compose up -d //create and run a container from the docker image built above
+  ##build the jar file
+  mvn package
+  ##build a docker image using the docker file
+  docker build -t public-service:latest . 
+  ##create and run a container from the docker image built above
+  docker-compose up -d 
   
 
 step 4
@@ -35,8 +38,11 @@ Run the email service by following the commands below
 step 5
 Run the subscription service by following the commands below
   cd subscription-service/
-  mvn package   //build the jar file
-  docker build -t subscription-service:latest . //build a docker image using the docker file
-  docker-compose up -d //create and run a container from the docker image built above
+  ##build the jar file
+  mvn package   
+  ##build a docker image using the docker file
+  docker build -t subscription-service:latest .
+  ##create and run a container from the docker image built above
+  docker-compose up -d 
 
 
