@@ -16,11 +16,11 @@ cd into the dirctory and you should find three(3) directories for each of the se
 # step 3
 ## Run the public service by following the commands below
   cd public-service/
-  ##build the jar file
+  ## build the jar file
   mvn package
-  ##build a docker image using the docker file
+  ## build a docker image using the docker file
   docker build -t public-service:latest . 
-  ##create and run a container from the docker image built above
+  ## create and run a container from the docker image built above
   docker-compose up -d 
   
 
@@ -38,11 +38,11 @@ cd into the dirctory and you should find three(3) directories for each of the se
 # step 5
 ## Run the subscription service by following the commands below
   cd subscription-service/
-  ##build the jar file
+  ## build the jar file
   mvn package   
-  ##build a docker image using the docker file
+  ## build a docker image using the docker file
   docker build -t subscription-service:latest .
-  ##create and run a container from the docker image built above
+  ## create and run a container from the docker image built above
   docker-compose up -d 
 
 
