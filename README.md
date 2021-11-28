@@ -1,5 +1,5 @@
 # Subscription-Service
-An application built on the micro-service architecture for subscriptions using with Java's Spring Framework
+An application built on the micro-service architecture for subscriptions built with Java's Spring Framework
 
 This project consists of 3 microservices(Public service a.k.a gateway server, Subscription service and Email service)
 
